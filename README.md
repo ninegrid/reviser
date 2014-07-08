@@ -3,7 +3,7 @@ reviser
 
 # Disclaimer
 
-This command is dangerous, please check the directory blacklist and *be sure*
+This command is dangerous, please check the directory blacklist and **be sure**
 you don't shoot yourself in the foot.
 
 # About
@@ -16,7 +16,7 @@ folder for great ease of use.
 find ./ -type f -not \( -path "*/.git/*" -path "*/node_modules/*" \) -exec sed -i 's/$1/$2' {} \;
 ```
 
-# Setup 
+# Setup
 
 From wherever you stash your clone:
 
@@ -37,7 +37,8 @@ directly, recursively throughout all subdirectories except for folders named
 
 # Todo
 
-This is a one-off script that I've decided not to type twice, it is not /robust/.
+This is a one-off script that I've decided not to type twice, it is not
+*robust*.
 
 I'll be updating the blacklist in the future, maybe pretty handy to have it work
 off of subdirectory .gitignore files.  Who knows, suggestions are welcome.
