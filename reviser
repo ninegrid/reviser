@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find ./ -type f -not \( -path "*/.git/*" -path "*/node_modules/*" \) -exec sed -i "s/$1/$2/" {} \;
+
