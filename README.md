@@ -37,8 +37,8 @@ directly, recursively throughout all subdirectories except for folders named
 
 # Todo
 
-This is a one-off script that I've decided not to type twice, it is not
-*robust*.
+This is a one-off script that I've decided not to type twice, it *is not*
+robust.
 
 I'll be updating the blacklist in the future, maybe pretty handy to have it work
 off of subdirectory .gitignore files.  Who knows, suggestions are welcome.
