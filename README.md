@@ -22,7 +22,7 @@ From wherever you stash your clone:
 
 ```
 $ git clone http://github.com/ninegrid/reviser.git .
-$ ln -s reviser ~/bin/reviser
+$ ln -s ./reviser ~/bin/reviser
 ```
 
 # Usage
